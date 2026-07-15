@@ -1,4 +1,4 @@
-###
+###      calculette note stagiaire      ###
 from tkinter import *
 from tkinter import messagebox
 
@@ -82,6 +82,8 @@ label5 = Label(root, text="note soutenance:", bg="light blue", font=("Arial", 20
 label5.place(x=0, y=130)
 entry5 = Entry(root, relief="solid", font=("Arial", 20,"bold"))
 entry5.place(x=300, y=130)
+
+
  
 nouvel_calcul=Button(root, text="nouvel🆕",bg="green", fg="white", font=("Arial", 20), command=nouvel)
 nouvel_calcul.place(x=30, y=440)
